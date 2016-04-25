@@ -1,0 +1,53 @@
+@import base/mixins
+@import base/colors
+
+*, *:before, *:after
+	padding: 0
+	margin: 0
+	box-sizing: inherit
+
+html, body
+	overflow-x: hidden
+	box-sizing: border-box
+
+html
+	height: 100%
+
+body
+	height: auto !important
+	height: 100%
+	min-height: 100%
+	background-color: $dark-grey
+	color: $main-text
+
+img
+	border: 0
+	vertical-align: top
+
+ul
+	list-style: none
+
+a, a:link, a:active, a:visited
+	color: $blue
+	&:hover
+		color: $orange
+		text-decoration: none
+
+main.main-page-wrapper
+	padding: vr(1) vr(.5)
+
+span
+	&.word-highlight-orange
+		color: $orange
+	&.word-highlight-turquoise
+		color: $turquoise
+
+.my-face
+	width: vr(6)
+	height: vr(6)
+	border-radius: 100%
+	margin: vr(.5) auto
+	margin-bottom: vr(1.5)
+	overflow: hidden
+	img
+		width: 100%

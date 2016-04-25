@@ -7,9 +7,12 @@
 {% extends 'layouts/application.html' %}
 
 {% block content %}
-<main>
+<main class="main-page-wrapper">
 
 	<article class="greeting">
+		<figure class="my-face">
+			<img src="../images/me.jpg" alt="">
+		</figure>
 		<p>
 			Доброго времени суток!<br>
 			Меня зовут <span class="word-highlight-orange">Георгий Юрьев</span> и я занимаюсь <span class="word-highlight-turquoise">фронтенд</span> разработкой.
@@ -17,7 +20,7 @@
 	</article>
 
 	<article class="contacts">
-		<h2>Контакты</h2>
+		<h2 class="article-name">Контакты</h2>
 		<ul>
 			<li><a href="https://github.com/light-flight">GitHub</a></li>
 			<li><a href="http://ru.stackoverflow.com/users/190188/%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9">StackOverflow</a></li>
@@ -30,12 +33,12 @@
 	</article>
 
 	<article class="projects">
-		<h2>Проекты</h2>
+		<h2 class="article-name">Проекты</h2>
 		<a href="http://9books.ru">9books</a>
 	</article>
 
 	<article class="using-techs">
-		<h2>Что я использую</h2>
+		<h2 class="article-name">Что я использую</h2>
 		<ul>
 			<li>html5</li>
 			<li>haml</li>
