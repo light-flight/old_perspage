@@ -1,0 +1,145 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+<main class="main-page-wrapper">
+
+	<article class="greeting">
+		<figure class="my-face">
+			<img src="../images/me.jpg" alt="me">
+		</figure>
+		<p>
+			Доброго времени суток!<br>
+			Меня зовут <span class="word-highlight-orange">Георгий Юрьев</span> и я занимаюсь <span class="word-highlight-turquoise">фронтенд</span> разработкой.
+		</p>
+	</article>
+
+	<article class="contacts">
+		<h2 class="article-name">Контакты</h2>
+		<ul>
+			<li>
+				<a href="https://github.com/light-flight">GitHub</a>
+			</li>
+			<li>
+				<a href="http://ru.stackoverflow.com/users/190188/%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9">StackOverflow</a>
+			</li>
+			<li>
+				<a href="https://plus.google.com/u/0/108167721706095845090">Google+</a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/profile.php?id=100000741106884">Facebook</a>
+			</li>
+			<li>
+				<a href="http://new.vk.com/light_flight">Vk</a>
+			</li>
+			<li>
+				<a href="http://codepen.io/light-flight/">CodePen</a>
+			</li>
+			<li>
+				<a href="mailto:yurievg@mail.ru">E-mail</a>
+			</li>
+		</ul>
+	</article>
+
+	<article class="projects">
+		<h2 class="article-name">Проекты</h2>
+		<a href="http://9books.ru">9books</a>
+	</article>
+
+	<article class="using-techs">
+		<h2 class="article-name">Что я использую</h2>
+		<ul class="techs">
+			<li>
+				<img src="../images/svgLogos/html5.svg" alt="html5">
+				html5
+			</li>
+			<li>
+				<img src="../images/svgLogos/haml.svg" alt="">
+				haml
+			</li>
+			<li>
+				<img src="../images/svgLogos/code.svg" alt="">
+				microdata
+			</li>
+		</ul>
+		<ul class="techs">
+			<li>
+				<img src="../images/svgLogos/css3.svg" alt="">
+				css3
+			</li>
+			<li>
+				<img src="../images/svgLogos/sass.svg" alt="">
+				sass/scss
+			</li>
+			<li>
+				<img src="../images/svgLogos/autoprefixer.svg" alt="">
+				autoprefixer
+			</li>
+			<li>
+				<img src="../images/svgLogos/bootstrap.svg" alt="">
+				bootstrap
+			</li>
+			<li>
+				<img src="../images/svgLogos/susy.svg" alt="">
+				susy
+			</li>
+			<li>
+				<img src="../images/svgLogos/code.svg" alt="">
+				typi
+			</li>
+		</ul>
+		<ul class="techs">
+			<li>
+				<img src="../images/svgLogos/responsive.svg" alt="">
+				RWD &amp; AWD
+			</li>
+			<li>
+				<img src="../images/svgLogos/svg.svg" alt="">
+				svg
+			</li>
+			<li>
+				<img src="../images/svgLogos/gsap.svg" alt="">
+				gsap
+			</li>
+		</ul>
+		<ul class="techs">
+			<li>
+				<img src="../images/svgLogos/javascript.svg" alt="">
+				javascript
+			</li>
+			<li>
+				<img src="../images/svgLogos/coffeescript.svg" alt="">
+				coffeescript
+			</li>
+			<li>
+				<img src="../images/svgLogos/jquery.svg" alt="">
+				jquery
+			</li>
+		</ul>
+		<ul class="techs">
+			<li>
+				<img src="../images/svgLogos/gulp.svg" alt="">
+				gulp
+			</li>
+			<li>
+				<img src="../images/svgLogos/rails.svg" alt="">
+				rails
+			</li>
+			<li>
+				<img src="../images/svgLogos/github.svg" alt="">
+				git
+			</li>
+			<li>
+				<img src="../images/svgLogos/chrome.svg" alt="">
+				chrome dev tools
+			</li>
+		</ul>
+	</article>
+
+</main>
+{% endblock %}

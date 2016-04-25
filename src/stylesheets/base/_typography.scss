@@ -1,0 +1,48 @@
+@import "../../node_modules/typi/scss/typi";
+
+$breakpoints: (
+  small: 730px,
+  large: 1024px
+);
+
+$typi: (
+  null: (16px, 1.5),
+  small: (18px, 1.5),
+  large: (18px, 1.5)
+);
+
+html {
+	@include typi-base();
+}
+
+$h1: (
+  null: (2.027em, vr(3)),
+  // large: (2.253em, vr(3))
+);
+$h2: (
+  null: (1.802em, vr(3)),
+  // large: (1.968em, vr(3))
+);
+$h3: (
+  null: (1.601em, vr(2)),
+  // large: (1.718em, vr(2))
+);
+$h4: (
+  null: (1.423em, vr(2)),
+  // large: (1.501em, vr(2))
+);
+$h5: (
+  null: (1.265em, vr(1.5)),
+  // large: (1.311em, vr(1.5))
+);
+$h6: (
+  null: (1.125em, vr(1.5)),
+  // large: (1.145em, vr(1.5))
+);
+
+h1 { @include typi($h1); }
+h2 { @include typi($h2); }
+h3 { @include typi($h3); }
+h4 { @include typi($h4); }
+h5 { @include typi($h5); }
+h6 { @include typi($h6); }
