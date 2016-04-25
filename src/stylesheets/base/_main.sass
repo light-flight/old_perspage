@@ -34,7 +34,9 @@ a, a:link, a:active, a:visited
 		text-decoration: none
 
 main.main-page-wrapper
-	padding: vr(1) vr(.5)
+	padding: vr(1) 0
+	& > * > *
+		padding: 0 vr(.5)
 
 span
 	&.word-highlight-orange
@@ -48,6 +50,27 @@ span
 	border-radius: 100%
 	margin: vr(.5) auto
 	margin-bottom: vr(1.5)
+	padding: 0 !important
 	overflow: hidden
 	img
 		width: 100%
+
+.techs
+	$logo-wrap: vr(2)
+	&:nth-child(2n)
+		background-color: lighten($dark-grey, 6%)
+	&:nth-child(2n+1)
+		background-color: lighten($dark-grey, 2%)
+	li
+		position: relative
+		height: $logo-wrap
+		padding-left: $logo-wrap
+		line-height: $logo-wrap
+		img
+			max-width: 32px
+			max-height: 32px
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			margin: auto
