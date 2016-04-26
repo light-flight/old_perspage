@@ -1,6 +1,10 @@
 {
+  "images/9books-responsive-showcase-mockup.png": "images/9books-responsive-showcase-mockup-571294293c.png",
   "images/9booksOnAppleDevices.png": "images/9booksOnAppleDevices-1aa10c0693.png",
+  "images/iPad-9books.png": "images/iPad-9books-a16b1f517d.png",
+  "images/laptop+smartphone.png": "images/laptop+smartphone-fc4730467f.png",
   "images/me.jpg": "images/me-fe04fd3e18.jpg",
+  "images/smartphone.png": "images/smartphone-78da7bc2ca.png",
   "images/svgLogos/autoprefixer.svg": "images/svgLogos/autoprefixer-5633638a6a.svg",
   "images/svgLogos/bootstrap.svg": "images/svgLogos/bootstrap-ba60afcb86.svg",
   "images/svgLogos/chrome.svg": "images/svgLogos/chrome-5dcbfeba27.svg",
@@ -26,5 +30,5 @@
   "images/svgLogos/susy.svg": "images/svgLogos/susy-932c887816.svg",
   "images/svgLogos/svg.svg": "images/svgLogos/svg-7c2d64658b.svg",
   "javascripts/app.js": "javascripts/app-3ad1d0f2879b8aaf3c9e.js",
-  "stylesheets/app.css": "stylesheets/app-6f2b8a59b0.css"
+  "stylesheets/app.css": "stylesheets/app-69fb0287a3.css"
 }
