@@ -1,4 +1,8 @@
 {
+  "fonts/icon-font.eot": "fonts/icon-font-7b652303af.eot",
+  "fonts/icon-font.svg": "fonts/icon-font-cffea91e7b.svg",
+  "fonts/icon-font.ttf": "fonts/icon-font-b5d225f406.ttf",
+  "fonts/icon-font.woff": "fonts/icon-font-de25fd71c1.woff",
   "images/9books-responsive-showcase-mockup.png": "images/9books-responsive-showcase-mockup-571294293c.png",
   "images/9booksOnAppleDevices.png": "images/9booksOnAppleDevices-1aa10c0693.png",
   "images/iPad-9books.png": "images/iPad-9books-a16b1f517d.png",
@@ -30,5 +34,5 @@
   "images/svgLogos/susy.svg": "images/svgLogos/susy-51cbe513fa.svg",
   "images/svgLogos/svg.svg": "images/svgLogos/svg-7954b81afc.svg",
   "javascripts/app.js": "javascripts/app-d845a827ab7a71450a03.js",
-  "stylesheets/app.css": "stylesheets/app-70989b21cc.css"
+  "stylesheets/app.css": "stylesheets/app-5b662e4e50.css"
 }
